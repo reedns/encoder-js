@@ -1,0 +1,16 @@
+{
+  "name": "encryptor",
+  "version": "0.0.1",
+  "description": "An encryptor with JS",
+  "author": "Reed Nelson-Saunders <reedness3000@gmail.com>",
+  "devDependencies": {
+    "grunt": "*",
+    "chai": "*",
+    "mocha": "*",
+    "grunt-mocha": "*"
+  },
+  "dependencies": {
+    "browserify": "*",
+    "watchify": "*"
+  }
+}

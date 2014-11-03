@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+    <script src="js/encryptor.js"></script>
+    <script src="js/encodeEvent.js"></script>
+  </head>
+  <body>
+    <h1>Message Encoder</h1>
+    <p>This simple page lets you securely encrypt a message with a password. Your message will not leave your computer, and will not be sent over the Internet.</p>
+    <p>Once it's encoded, you'll be able to share your message with anyone else who has the password.</p>
+    <textarea id="message" rows="6" cols="60"></textarea>
+    <br>
+    <button onclick="encoder.protect()" id="encrypt">Lock Down</button>
+    <h1>Decrypt your secret message</h1>
+    <p>Paste the encrypted link into the address bar. Click "Decrypt" and enter the passphrase.</p>
+    <button id="decrypt" onclick="alert(decoder.decrypt())">Decrypt</button>
+
+  </body>
+</html>
